@@ -1,0 +1,16 @@
+ppuka pp,pp1;
+smile ss,ss1;
+void setup(){
+  size(1000,1000);
+  pp=new ppuka(300,200,10);
+  pp1=new ppuka(700,200,10);
+  ss=new smile(500,400,10);
+  ss1=new smile(200,400,10);
+}
+void draw(){
+  background(123,120,34);
+  pp.face();  pp.move();
+  pp1.face(); pp1.move();
+  ss.face();  ss.move();
+  ss1.face()  ;ss1.move();
+}
